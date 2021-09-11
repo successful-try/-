@@ -1,0 +1,501 @@
+10
+
+Platon (Name)
+Platonov (Surname)
+50 (Group_No)
+12.11.1999 (Date_of_birth)
+
+Petr (Name)
+Petrov (Surname)
+49 (Group_No)
+11.11.1999 (Date_of_birth)
+
+Oleg (Name)
+Olegov (Surname)
+48 (Group_No)
+10.11.1999 (Date_of_birth)
+
+Nikon (Name)
+Nikonov (Surname)
+47 (Group_No)
+09.11.1999 (Date_of_birth)
+
+Nikita (Name)
+Nikitov (Surname)
+46 (Group_No)
+08.11.1999 (Date_of_birth)
+
+Nazar (Name)
+Nazarov (Surname)
+45 (Group_No)
+07.11.1999 (Date_of_birth)
+
+Mixail (Name)
+Mixailov (Surname)
+44 (Group_No)
+06.11.1999 (Date_of_birth)
+
+Mstislav (Name)
+Mstislavov (Surname)
+43 (Group_No)
+05.11.1999 (Date_of_birth)
+
+Mitrofan (Name)
+Mitrofanov (Surname)
+42 (Group_No)
+04.11.1999 (Date_of_birth)
+
+Maksim (Name)
+Maksimov (Surname)
+41 (Group_No)
+03.11.1999 (Date_of_birth)
+
+Miron (Name)
+Mironov (Surname)
+40 (Group_No)
+02.11.1999 (Date_of_birth)
+
+Mark (Name)
+Markov (Surname)
+39 (Group_No)
+01.11.1999 (Date_of_birth)
+
+Makar (Name)
+Makarov (Surname)
+38 (Group_No)
+31.10.1999 (Date_of_birth)
+
+Leonid (Name)
+Leonidov (Surname)
+37 (Group_No)
+30.10.1999 (Date_of_birth)
+
+Konstantin (Name)
+Konstantinov (Surname)
+36 (Group_No)
+29.10.1999 (Date_of_birth)
+
+Kirill (Name)
+Kirillov (Surname)
+35 (Group_No)
+28.10.1999 (Date_of_birth)
+
+Igor (Name)
+Igorov (Surname)
+34 (Group_No)
+27.10.1999 (Date_of_birth)
+
+Ivan (Name)
+Ivanov (Surname)
+33 (Group_No)
+26.10.1999 (Date_of_birth)
+
+Jdan (Name)
+Jdanov (Surname)
+32 (Group_No)
+25.10.1999 (Date_of_birth)
+
+Efim (Name)
+Efimov (Surname)
+31 (Group_No)
+24.10.1999 (Date_of_birth)
+
+Egor (Name)
+Egorov (Surname)
+30 (Group_No)
+23.10.1999 (Date_of_birth)
+
+Evgenii (Name)
+Evgeniev (Surname)
+29 (Group_No)
+22.10.1999 (Date_of_birth)
+
+Dmitriy (Name)
+Dmitriev (Surname)
+28 (Group_No)
+21.10.1999 (Date_of_birth)
+
+Donat (Name)
+Donatov (Surname)
+27 (Group_No)
+20.10.1999 (Date_of_birth)
+
+Denis (Name)
+Denisov (Surname)
+26 (Group_No)
+19.10.1999 (Date_of_birth)
+
+Daniil (Name)
+Danilov (Surname)
+25 (Group_No)
+18.10.1999 (Date_of_birth)
+
+German (Name)
+Germanov (Surname)
+24 (Group_No)
+16.10.1999 (Date_of_birth)
+
+Griforii (Name)
+Grigoriev (Surname)
+23 (Group_No)
+15.10.1999 (Date_of_birth)
+
+Gleb (Name)
+Glebov (Surname)
+22 (Group_No)
+14.10.1999 (Date_of_birth)
+
+Vsevolod (Name)
+Vsevolodov (Surname)
+21 (Group_No)
+13.10.1999 (Date_of_birth)
+
+Vladislav (Name)
+Vladislavov (Surname)
+20 (Group_No)
+12.10.1999 (Date_of_birth)
+
+Vladimir (Name)
+Vladimirov (Surname)
+19 (Group_No)
+11.10.1999 (Date_of_birth)
+
+Veneamin (Name)
+Veneaminov (Surname)
+18 (Group_No)
+10.10.1999 (Date_of_birth)
+
+Victor (Name)
+Victorov (Surname)
+17 (Group_No)
+09.10.1999 (Date_of_birth)
+
+Vasilii (Name)
+Vasiliev (Surname)
+16 (Group_No)
+08.10.1999 (Date_of_birth)
+
+Varlam (Name)
+Varlamov (Surname)
+15 (Group_No)
+07.10.1999 (Date_of_birth)
+
+Valentin (Name)
+Valentintinov (Surname)
+14 (Group_No)
+06.10.1999 (Date_of_birth)
+
+Vadim (Name)
+Vadimov (Surname)
+13 (Group_No)
+05.10.1999 (Date_of_birth)
+
+Boris (Name)
+Borisov (Surname)
+12 (Group_No)
+04.10.1999 (Date_of_birth)
+
+Bogdan (Name)
+Bogdanov (Surname)
+11 (Group_No)
+03.10.1999 (Date_of_birth)
+
+Afanasii (Name)
+Afanasiev (Surname)
+10 (Group_No)
+02.10.1999 (Date_of_birth)
+
+Arhip (Name)
+Arhipov (Surname)
+9 (Group_No)
+01.10.1999 (Date_of_birth)
+
+Artur (Name)
+Arturov (Surname)
+8 (Group_No)
+30.09.1999 (Date_of_birth)
+
+Artem (Name)
+Artemov (Surname)
+7 (Group_No)
+29.09.1999 (Date_of_birth)
+
+Arkadii (Name)
+Arkadiev (Surname)
+6 (Group_No)
+28.09.1999 (Date_of_birth)
+
+Antov (Name)
+Antonov (Surname)
+5 (Group_No)
+27.09.1999 (Date_of_birth)
+
+Andrey (Name)
+Andreev (Surname)
+4 (Group_No)
+26.09.1999 (Date_of_birth)
+
+Albert (Name)
+Albertov (Surname)
+3 (Group_No)
+25.09.1999 (Date_of_birth)
+
+Alex (Name)
+Alexov (Surname)
+2 (Group_No)
+24.09.1999 (Date_of_birth)
+
+Agafon (Name)
+Agafonov (Surname)
+1 (Group_No)
+23.09.1999 (Date_of_birth)
+
+Potap (Name)
+Potapov (Surname)
+51 (Group_No)
+13.11.1999 (Date_of_birth)
+
+Proxor (Name)
+Proxorov (Surname)
+52 (Group_No)
+14.11.1999 (Date_of_birth)
+
+Rodion (Name)
+Rodionov (Surname)
+53 (Group_No)
+15.11.1999 (Date_of_birth)
+
+Roman (Name)
+Romanov (Surname)
+54 (Group_No)
+16.11.1999 (Date_of_birth)
+
+Ruslan (Name)
+Ruslanov (Surname)
+55 (Group_No)
+17.11.1999 (Date_of_birth)
+
+Savva (Name)
+Savov (Surname)
+56 (Group_No)
+18.11.1999 (Date_of_birth)
+
+Sergey (Name)
+Sergeev (Surname)
+57 (Group_No)
+19.11.1999 (Date_of_birth)
+
+Semen (Name)
+Semenov (Surname)
+58 (Group_No)
+20.11.1999 (Date_of_birth)
+
+Silvest (Name)
+Silvestrov (Surname)
+59 (Group_No)
+21.11.1999 (Date_of_birth)
+
+Stepan (Name)
+Stepanov (Surname)
+60 (Group_No)
+22.11.1999 (Date_of_birth)
+
+Stanislav (Name)
+Stanislavov (Surname)
+61 (Group_No)
+23.11.1999 (Date_of_birth)
+
+Taras (Name)
+Tarasov (Surname)
+62 (Group_No)
+24.11.1999 (Date_of_birth)
+
+Timur (Name)
+Timurov (Surname)
+63 (Group_No)
+25.11.1999 (Date_of_birth)
+
+Tihon (Name)
+Tihonov (Surname)
+64 (Group_No)
+26.11.1999 (Date_of_birth)
+
+Trofim (Name)
+Trofimov (Surname)
+65 (Group_No)
+27.11.1999 (Date_of_birth)
+
+Foma (Name)
+Fomov (Surname)
+66 (Group_No)
+28.11.1999 (Date_of_birth)
+
+Filat (Name)
+Filatov (Surname)
+67 (Group_No)
+29.11.1999 (Date_of_birth)
+
+Filipp (Name)
+Filippov (Surname)
+68 (Group_No)
+30.11.1999 (Date_of_birth)
+
+Fedor (Name)
+Fedorov (Surname)
+69 (Group_No)
+01.12.1999 (Date_of_birth)
+
+Fedot (Name)
+Fedotov (Surname)
+70 (Group_No)
+02.12.1999 (Date_of_birth)
+
+Feliks (Name)
+Feliksov (Surname)
+71 (Group_No)
+03.12.1999 (Date_of_birth)
+
+Hariton (Name)
+Haritonov (Surname)
+72 (Group_No)
+04.12.1999 (Date_of_birth)
+
+Eduard (Name)
+Eduardov (Surname)
+73 (Group_No)
+05.12.1999 (Date_of_birth)
+
+Yuri (Name)
+Yuriev (Surname)
+74 (Group_No)
+06.12.1999 (Date_of_birth)
+
+Yulian (Name)
+Yulianov (Surname)
+75 (Group_No)
+07.12.1999 (Date_of_birth)
+
+Yakov (Name)
+Yakovlev (Surname)
+76 (Group_No)
+08.12.1999 (Date_of_birth)
+
+Yaroslav (Name)
+Yaroslavov (Surname)
+77 (Group_No)
+09.12.1999 (Date_of_birth)
+
+Bulat (Name)
+Bulatov (Surname)
+78 (Group_No)
+10.12.1999 (Date_of_birth)
+
+Avrora (Name)
+Avrorova (Surname)
+79 (Group_No)
+11.12.1999 (Date_of_birth)
+
+Avgustina (Name)
+Avgustinova (Surname)
+80 (Group_No)
+12.12.1999 (Date_of_birth)
+
+Agata (Name)
+Agatova (Surname)
+81 (Group_No)
+13.12.1999 (Date_of_birth)
+
+Alena (Name)
+Alenova (Surname)
+82 (Group_No)
+14.12.1999 (Date_of_birth)
+
+Anna (Name)
+Anina (Surname)
+83 (Group_No)
+15.12.1999 (Date_of_birth)
+
+Berta (Name)
+Bertova (Surname)
+84 (Group_No)
+16.12.1999 (Date_of_birth)
+
+Vita (Name)
+Vitova (Surname)
+85 (Group_No)
+17.12.1999 (Date_of_birth)
+
+Viola (Name)
+Violova (Surname)
+86 (Group_No)
+18.12.1999 (Date_of_birth)
+
+Vera (Name)
+Verova (Surname)
+87 (Group_No)
+19.12.1999 (Date_of_birth)
+
+Vladislava (Name)
+Vladislavova (Surname)
+88 (Group_No)
+20.12.1999 (Date_of_birth)
+
+Venera (Name)
+Venerova (Surname)
+89 (Group_No)
+21.12.1999 (Date_of_birth)
+
+Dana (Name)
+Danova (Surname)
+90 (Group_No)
+22.12.1999 (Date_of_birth)
+
+Elena (Name)
+Elenova (Surname)
+91 (Group_No)
+23.12.1999 (Date_of_birth)
+
+Elizaveta (Name)
+Elizavetova (Surname)
+92 (Group_No)
+24.12.1999 (Date_of_birth)
+
+Zabava (Name)
+Zabavina (Surname)
+93 (Group_No)
+25.12.1999 (Date_of_birth)
+
+Irina (Name)
+Irinova (Surname)
+94 (Group_No)
+26.12.1999 (Date_of_birth)
+
+Ilona (Name)
+Ilonova (Surname)
+95 (Group_No)
+27.12.1999 (Date_of_birth)
+
+Inna (Name)
+Innova (Surname)
+96 (Group_No)
+28.12.1999 (Date_of_birth)
+
+Kamila (Name)
+Kamilova (Surname)
+97 (Group_No)
+29.12.1999 (Date_of_birth)
+
+Kristina (Name)
+Kristinova (Surname)
+98 (Group_No)
+30.12.1999 (Date_of_birth)
+
+Lera (Name)
+Lerova (Surname)
+99 (Group_No)
+31.12.1999 (Date_of_birth)
+
+Marta (Name)
+Martova (Surname)
+100 (Group_No)
+01.01.2000 (Date_of_birth)
