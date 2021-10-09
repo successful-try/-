@@ -9,8 +9,8 @@ int main()
     cin >> N >> beg_station >> end_station;
 
 
-	if(end_station < beg_station)                    // Ìåíÿåì ìåñòàìè íà÷àëüíóþ è êîíå÷íóþ ñòàíöèè,
-	{                                                // åñëè èíäåêñ íà÷àëüíîé áîëüøå êîíå÷íîé.
+	if(end_station < beg_station)                    	// ÐœÐµÐ½ÑÐµÐ¼ Ð¼ÐµÑÑ‚Ð°Ð¼Ð¸ Ð½Ð°Ñ‡Ð°Ð»ÑŒÐ½ÑƒÑŽ Ð¸ ÐºÐ¾Ð½ÐµÑ‡Ð½ÑƒÑŽ ÑÑ‚Ð°Ð½Ñ†Ð¸Ð¸,
+	{                                                	 // ÐµÑÐ»Ð¸ Ð¸Ð½Ð´ÐµÐºÑ Ð½Ð°Ñ‡Ð°Ð»ÑŒÐ½Ð¾Ð¹ Ð±Ð¾Ð»ÑŒÑˆÐµ ÐºÐ¾Ð½ÐµÑ‡Ð½Ð¾Ð¹.
 		int tmp = beg_station;
 		beg_station = end_station;
 		end_station = tmp;
@@ -20,8 +20,8 @@ int main()
 	int left_direction   = N - right_direction;
 
 
-	if(right_direction <= left_direction){           //Îïðåäåëÿåì â êàêóþ ñòîðîíó áûñòðåå äâèãàòüñÿ:
-				result = right_direction -1;         //âëåâî èëè âïðàâî
+	if(right_direction <= left_direction){           	//ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»ÑÐµÐ¼ Ð² ÐºÐ°ÐºÑƒÑŽ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñƒ Ð±Ñ‹ÑÑ‚Ñ€ÐµÐµ Ð´Ð²Ð¸Ð³Ð°Ñ‚ÑŒÑÑ:
+				result = right_direction -1;    //Ð²Ð»ÐµÐ²Ð¾ Ð¸Ð»Ð¸ Ð²Ð¿Ñ€Ð°Ð²Ð¾
 	}
 	else if( right_direction > left_direction){
 				result = left_direction -1;
