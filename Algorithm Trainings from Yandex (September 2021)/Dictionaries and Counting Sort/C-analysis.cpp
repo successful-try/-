@@ -17,7 +17,7 @@ int main()
     map<int,set<string>, greater <int>>reverse_;
 
 
-    while(cin >> word){                          //Записываем частоту слов
+    while(cin >> word){                          / //Р—Р°РїРёСЃС‹РІР°РµРј С‡Р°СЃС‚РѕС‚Сѓ СЃР»РѕРІ
 
         if(m.find(word) == m.end()){
             m[word] = 1;
@@ -27,8 +27,8 @@ int main()
     }
 
     for(const auto& x: m){
-            reverse_[x.second].insert(x.first);   //Меняем по сравнению с первой мапой
-    }                                             //ключ и значение и записываем в порядке убывания
+            reverse_[x.second].insert(x.first);   //РњРµРЅСЏРµРј РїРѕ СЃСЂР°РІРЅРµРЅРёСЋ СЃ РїРµСЂРІРѕР№ РјР°РїРѕР№
+    }                                             //РєР»СЋС‡ Рё Р·РЅР°С‡РµРЅРёРµ Рё Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРѕСЂСЏРґРєРµ СѓР±С‹РІР°РЅРёСЏ
 
     map<int,set<string>> :: iterator it;
 
