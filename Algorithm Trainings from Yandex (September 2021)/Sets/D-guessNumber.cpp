@@ -15,7 +15,7 @@ int main()
     int n;
     flow >> n;
 
-    set<int>Possible;               //Записываем возм. числа Августа
+    set<int>Possible;               //Р—Р°РїРёСЃС‹РІР°РµРј РІРѕР·Рј. С‡РёСЃР»Р° РђРІРіСѓСЃС‚Р°
     for(int i = 1; i <= n; ++i){
         Possible.insert(i);
     }
@@ -37,15 +37,15 @@ while(str != "HELP"){
    while(!flow.eof()){
 
         flow >> x;
-        Beatrice.insert(x);       //Записываем догадки Беатрис
+        Beatrice.insert(x);       //Р—Р°РїРёСЃС‹РІР°РµРј РґРѕРіР°РґРєРё Р‘РµР°С‚СЂРёСЃ
     }
 
     getline(cin,str);
 
     if(str == "NO"){
        for(auto &b : Beatrice){
-            Possible.erase(b);   //Удаляем числа, которые точно
-       }                         //не подходят
+            Possible.erase(b);   //РЈРґР°Р»СЏРµРј С‡РёСЃР»Р°, РєРѕС‚РѕСЂС‹Рµ С‚РѕС‡РЅРѕ
+       }                         //РЅРµ РїРѕРґС…РѕРґСЏС‚
     }
     else if(str == "YES"){
         set_intersection(Possible.begin(), Possible.end(),
