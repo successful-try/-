@@ -13,7 +13,7 @@ int main()
     cin >> x;
     s1.insert(x);
 
-    char c = getchar();   //Пропускаем пробел
+    char c = getchar();   //РџСЂРѕРїСѓСЃРєР°РµРј РїСЂРѕР±РµР»
 
     while(c != '\n')
     {
