@@ -26,7 +26,7 @@ int main()
                 ++counter_right;
             }
 
-            if(counter_right > counter_left){        //Если закрывыющих скобок стало больше, то NO
+            if(counter_right > counter_left){         //Р•СЃР»Рё Р·Р°РєСЂС‹РІС‹СЋС‰РёС… СЃРєРѕР±РѕРє СЃС‚Р°Р»Рѕ Р±РѕР»СЊС€Рµ, С‚Рѕ NO
                 cout << "NO" << endl;
                 flag = false;
                 return 0;
@@ -34,7 +34,7 @@ int main()
 
        }
 
-       if(counter_left != counter_right){             //Если тест только с открывающими скобками
+       if(counter_left != counter_right){               //Р•СЃР»Рё С‚РµСЃС‚ С‚РѕР»СЊРєРѕ СЃ РѕС‚РєСЂС‹РІР°СЋС‰РёРјРё СЃРєРѕР±РєР°РјРё
             cout << "NO" << endl;
             return 0;
        }
