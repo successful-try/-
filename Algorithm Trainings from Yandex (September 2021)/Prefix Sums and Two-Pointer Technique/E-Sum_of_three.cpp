@@ -63,3 +63,63 @@ int main()
 
 }
 
+/*
+#include <iostream>
+#include <vector>
+#include <cstdint>
+#include <unordered_map>
+
+using namespace std;
+
+vector<int64_t> Vector() {
+    int n;
+    cin >> n;
+    vector<int64_t> v(n);
+    for(int i = 0; i < n; ++i) {
+        int64_t number;
+        cin >> number;
+        v[i] = number;
+    }
+    return v;
+}
+
+unordered_map<int64_t, int> Map() {
+    int n;
+    cin >> n;
+    unordered_map<int64_t, int> m;
+    for(int i = 0; i < n; ++i) {
+        int64_t number;
+        cin >> number;
+        if(m.find(number) == m.end()) {
+            m[number] = i;
+        }
+    }
+    return m;
+}
+
+int main() {
+    int64_t S;
+    cin >> S;
+    auto A = Vector();
+    auto B = Vector();
+    auto C = Map();
+    vector<int> answer = {-1};
+    for (int i = 0; i < A.size(); ++i) {
+        for(int j = 0; j < B.size(); ++j) {
+            if(C.find(S - A[i] - B[j]) != C.end()) {               //Из заданного числа S
+                answer = vector<int>{i, j, C[S - A[i] - B[j]]};    //вычитаем числа из массивов
+                i = A.size();                                      //A и B, а затем ищем остаток
+                j = B.size();                                      //в мапе С
+            }
+        }
+    }
+
+    for(auto i : answer) {
+        cout << i << " ";
+    }
+
+    return 0;
+}
+
+
+*/
