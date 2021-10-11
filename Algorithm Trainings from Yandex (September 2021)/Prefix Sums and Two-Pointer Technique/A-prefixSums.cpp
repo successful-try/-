@@ -14,7 +14,7 @@ int main() {
     int a;
     long long result;
 
-    for(int i=1; i<(n+1); ++i){                //ñ÷èòàåì ïðåôôèêñíóþ ñóììó
+    for(int i=1; i<(n+1); ++i){                 //ÑÑ‡Ð¸Ñ‚Ð°ÐµÐ¼ Ð¿Ñ€ÐµÑ„Ñ„Ð¸ÐºÑÐ½ÑƒÑŽ ÑÑƒÐ¼Ð¼Ñƒ
         cin >> a;
         pref_sum[i] = pref_sum[i-1] + a;
     }
