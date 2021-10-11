@@ -23,14 +23,14 @@ struct Order *Make_order_structure(void){
 
 
 void Add_in_list(struct Order *ptr, struct Order** dest, bool Buyer){
-///////Добавляем заявку в список Покупателей///////
+///////Р”РѕР±Р°РІР»СЏРµРј Р·Р°СЏРІРєСѓ РІ СЃРїРёСЃРѕРє РџРѕРєСѓРїР°С‚РµР»РµР№///////
     if(Buyer){
-        if(*dest == NULL){                       // Добавляем первую заявку Покупателя
+        if(*dest == NULL){                      // Р”РѕР±Р°РІР»СЏРµРј РїРµСЂРІСѓСЋ Р·Р°СЏРІРєСѓ РџРѕРєСѓРїР°С‚РµР»СЏ
             *dest = ptr;
         }
         else{
-            if((*dest)->Price < ptr->Price){     // Добавляем последующие заявки Покупателей
-                ptr->next = *dest;               // и сортируем по убыванию и Id
+            if((*dest)->Price < ptr->Price){     /// Р”РѕР±Р°РІР»СЏРµРј РїРѕСЃР»РµРґСѓСЋС‰РёРµ Р·Р°СЏРІРєРё РџРѕРєСѓРїР°С‚РµР»РµР№
+                ptr->next = *dest;               // Рё СЃРѕСЂС‚РёСЂСѓРµРј РїРѕ СѓР±С‹РІР°РЅРёСЋ Рё Id
                 *dest = ptr;
             }
             else{
@@ -45,14 +45,14 @@ void Add_in_list(struct Order *ptr, struct Order** dest, bool Buyer){
             }
         }
     }
-    ///////Добавляем заявку в список Продавцов///////
+    ///////Р”РѕР±Р°РІР»СЏРµРј Р·Р°СЏРІРєСѓ РІ СЃРїРёСЃРѕРє РџСЂРѕРґР°РІС†РѕРІ///////
     else{
-        if(*dest == NULL){                       // Добавляем первую заявку Продавца
+        if(*dest == NULL){                       // Р”РѕР±Р°РІР»СЏРµРј РїРµСЂРІСѓСЋ Р·Р°СЏРІРєСѓ РџСЂРѕРґР°РІС†Р°
         *dest = ptr;
         }
         else{
-            if((*dest)->Price > ptr->Price){     // Добавляем последующие заявки Продавцов
-                ptr->next = *dest;               // и сортируем по возрастанию и Id
+            if((*dest)->Price > ptr->Price){     // Р”РѕР±Р°РІР»СЏРµРј РїРѕСЃР»РµРґСѓСЋС‰РёРµ Р·Р°СЏРІРєРё РџСЂРѕРґР°РІС†РѕРІ
+                ptr->next = *dest;               // Рё СЃРѕСЂС‚РёСЂСѓРµРј РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ Рё Id
                 *dest = ptr;
             }
              else{
@@ -74,15 +74,15 @@ void Cancel_order(int id, struct Order** Buyer){
     struct Order  *tmp  = *Buyer;
     struct Order *prev  = *Buyer;
 
-    if(*Buyer != NULL && ((*Buyer)->ID == id)){                   //Удаляем первую заявку в списке
+    if(*Buyer != NULL && ((*Buyer)->ID == id)){                   //РЈРґР°Р»СЏРµРј РїРµСЂРІСѓСЋ Р·Р°СЏРІРєСѓ РІ СЃРїРёСЃРєРµ
         *Buyer = (*Buyer)->next;
         free(prev);
         printf("X,%d\n",id);
     }
 
     else{
-        while(tmp != NULL && tmp->ID != id){  //Удаляем последующие заявки
-            prev = tmp;                       //в списке
+        while(tmp != NULL && tmp->ID != id){  //РЈРґР°Р»СЏРµРј РїРѕСЃР»РµРґСѓСЋС‰РёРµ Р·Р°СЏРІРєРё
+            prev = tmp;                       //РІ СЃРїРёСЃРєРµ
             tmp  = tmp->next;
         }
         if(tmp != NULL){
@@ -99,11 +99,11 @@ void Trade(struct Order** Buyer, struct Order** Seller){
 
      while((*Buyer) != NULL  &&  (*Seller) != NULL  &&  (*Buyer)->Price >= (*Seller)->Price){
 
-        int trade_volume = (*Buyer)->Qty > (*Seller)->Qty ? (*Seller)->Qty : (*Buyer)->Qty;   //Указываем наименьший объём для сделки
-        float trade_price = (*Buyer)->ID > (*Seller)->ID ? (*Seller)->Price : (*Buyer)->Price;//Указывам цену для сделки
+        int trade_volume = (*Buyer)->Qty > (*Seller)->Qty ? (*Seller)->Qty : (*Buyer)->Qty;   //РЈРєР°Р·С‹РІР°РµРј РЅР°РёРјРµРЅСЊС€РёР№ РѕР±СЉС‘Рј РґР»СЏ СЃРґРµР»РєРё
+        float trade_price = (*Buyer)->ID > (*Seller)->ID ? (*Seller)->Price : (*Buyer)->Price;//РЈРєР°Р·С‹РІР°Рј С†РµРЅСѓ РґР»СЏ СЃРґРµР»РєРё
 
-         if((*Buyer)->ID > (*Seller)->ID ){                                                   //Формируем сделку в зависимости от
-             printf("T,%d,S,%d,%d,%d,%.2f\n", ++trade_id, (*Seller)->ID,                         //ID участников
+         if((*Buyer)->ID > (*Seller)->ID ){                                                   //Р¤РѕСЂРјРёСЂСѓРµРј СЃРґРµР»РєСѓ РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚
+             printf("T,%d,S,%d,%d,%d,%.2f\n", ++trade_id, (*Seller)->ID,                      //ID СѓС‡Р°СЃС‚РЅРёРєРѕРІ
                                           (*Buyer)->ID, trade_volume,
                                            trade_price);
         }
@@ -119,15 +119,15 @@ void Trade(struct Order** Buyer, struct Order** Seller){
         (*Seller)->Qty -= trade_volume;
 
 
-        if((*Buyer)->Qty == 0){                                                               //Удаляем голову из списка Покупателей,
-            struct Order  *tmp  = (*Buyer);                                                   //если кол-во кг сделки больше, чем в
-            *Buyer = (*Buyer)->next;                                                          //определенной заявке Покупателя
+        if((*Buyer)->Qty == 0){                                                               //РЈРґР°Р»СЏРµРј РіРѕР»РѕРІСѓ РёР· СЃРїРёСЃРєР° РџРѕРєСѓРїР°С‚РµР»РµР№,
+            struct Order  *tmp  = (*Buyer);                                                   //РµСЃР»Рё РєРѕР»-РІРѕ РєРі СЃРґРµР»РєРё Р±РѕР»СЊС€Рµ, С‡РµРј РІ
+            *Buyer = (*Buyer)->next;                                                          //РѕРїСЂРµРґРµР»РµРЅРЅРѕР№ Р·Р°СЏРІРєРµ РџРѕРєСѓРїР°С‚РµР»СЏ
             free(tmp);
         }
 
-        if((*Seller)->Qty == 0){                                                             //Удаляем голову из списка Продавцов,
-            struct Order  *tmp  = (*Seller);                                                 //если кол-во кг сделки больше, чем в
-            *Seller = (*Seller)->next;                                                       //определенной заявке Продавца
+        if((*Seller)->Qty == 0){                                                             //РЈРґР°Р»СЏРµРј РіРѕР»РѕРІСѓ РёР· СЃРїРёСЃРєР° РџСЂРѕРґР°РІС†РѕРІ,
+            struct Order  *tmp  = (*Seller);                                                 //РµСЃР»Рё РєРѕР»-РІРѕ РєРі СЃРґРµР»РєРё Р±РѕР»СЊС€Рµ, С‡РµРј РІ
+            *Seller = (*Seller)->next;                                                       //РѕРїСЂРµРґРµР»РµРЅРЅРѕР№ Р·Р°СЏРІРєРµ РџСЂРѕРґР°РІС†Р°
             free(tmp);
         }
      }
@@ -145,22 +145,22 @@ int main(){
 
     while((ch = getchar()) != EOF){
 
-/////////Заполняем структуру данными/////////
+/////////Р—Р°РїРѕР»РЅСЏРµРј СЃС‚СЂСѓРєС‚СѓСЂСѓ РґР°РЅРЅС‹РјРё/////////
         if(ch == 'O'){
-           getchar();                            //пропускаем 1-ю запятую
+           getchar();                            //РїСЂРѕРїСѓСЃРєР°РµРј 1-СЋ Р·Р°РїСЏС‚СѓСЋ
 
            struct Order* order = Make_order_structure();
 
            scanf("%d",&order->ID);
-           getchar();                              //пропускаем 2-ю запятую
+           getchar();                               //РїСЂРѕРїСѓСЃРєР°РµРј 2-СЋ Р·Р°РїСЏС‚СѓСЋ
            tmp_for_Side = getchar();
-           getchar();                              //пропускаем 3-ю запятую
+           getchar();                               //РїСЂРѕРїСѓСЃРєР°РµРј 3-СЋ Р·Р°РїСЏС‚СѓСЋ
            scanf("%d",&order->Qty);
-           getchar();                              //пропускаем 4-ю запятую
+           getchar();                               //РїСЂРѕРїСѓСЃРєР°РµРј 4-СЋ Р·Р°РїСЏС‚СѓСЋ
            scanf("%f",&order->Price);
            order->next = NULL;
 
-           if(tmp_for_Side == 'B'){                // Выбираем список Продавцов или Покупателей
+           if(tmp_for_Side == 'B'){               // Р’С‹Р±РёСЂР°РµРј СЃРїРёСЃРѕРє РџСЂРѕРґР°РІС†РѕРІ РёР»Рё РџРѕРєСѓРїР°С‚РµР»РµР№
                 Buyer = true;
                 Add_in_list(order, &Buy_list, Buyer);
            }
@@ -170,17 +170,18 @@ int main(){
            }
 
 
-/////////Проводим сделку////////////
+/////////РџСЂРѕРІРѕРґРёРј СЃРґРµР»РєСѓ////////////
            Trade(&Buy_list, &Sell_list);
 
 
         }
-/////////////Удаляем заявку////////////
+/////////////РЈРґР°Р»СЏРµРј Р·Р°СЏРІРєСѓ////////////
         else if(ch == 'C'){
-            getchar();                              //пропускаем 1-ю запятую
+            getchar();                              //РїСЂРѕРїСѓСЃРєР°РµРј 1-СЋ Р·Р°РїСЏС‚СѓСЋ
             scanf("%d",&Id_to_cancel);
-            Cancel_order(Id_to_cancel, &Buy_list);  //Ищем заявку для удаления
-            Cancel_order(Id_to_cancel, &Sell_list); //в обоих списках
+            Cancel_order(Id_to_cancel, &Buy_list);  //РС‰РµРј Р·Р°СЏРІРєСѓ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ
+            Cancel_order(Id_to_cancel, &Sell_list); //РІ РѕР±РѕРёС… СЃРїРёСЃРєР°С…
+
 
         }
 
